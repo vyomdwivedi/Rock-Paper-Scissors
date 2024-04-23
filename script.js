@@ -47,32 +47,3 @@ function playRound(user_input,comp_input) {
         return "You lose! Rock beats scissors."
     }
 }
-console.log(playRound(user_input, getComputerChoice()))
-
-// function game() {
-//     let scorePlayer = 0
-//     let scoreComputer = 0
-//     for (let i =0; i<5 ; i++){
-//         const user_input = playerChoice();
-//         const comp_input = getComputerChoice();
-//         console.log(comp_input)
-//         console.log(playRound(user_input,comp_input));
-//         console.log(`Player ${scorePlayer} VS Computer ${scoreComputer}`);
-//         if((playRound(user_input,comp_input) === "You win! Rock beats scissors."||"You win! Paper beats rock."||"You win! Scissors beats paper.")){
-//             scorePlayer++
-//         }
-//         else if((playRound(user_input,comp_input) === "You lose! Rock beats scissors."||"You lose! Paper beats rock."||"You lose! Scissors beats paper.")){
-//             scoreComputer++
-//         }
-//     }
-//     console.log("Game Over")
-//     if(scorePlayer > scoreComputer){
-//         console.log("Congrats you win!!")
-//     } else if (scorePlayer < scoreComputer){
-//         console.log("Better luck next time.")
-//     } else {
-//         console.log("it's a tie!")
-//     }
-// }
-
-// game()
